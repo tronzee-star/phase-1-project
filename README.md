@@ -17,7 +17,7 @@ This is a **Single Page Application (SPA)** built using **HTML**, **CSS**, and *
 All actions are performed asynchronously without any page reloads.
 
 ---
-[🔗 View Live on GitHub Pages]()
+[🔗 View Live on GitHub Pages](https://tronzee-star.github.io/phase-1-project/)
 
 ---
 
@@ -100,8 +100,8 @@ JavaScript (ES6+)
 JSON Server (For mock backend)
 
 📸 Screenshots:
-(Optional: Add screenshots of your running app here)
-Example:
+Example:![image](https://github.com/user-attachments/assets/911e45ee-8efe-49f0-82ee-18e584dec1cf)
+
 
 ⚖️ License
 This project is licensed under the MIT License.
