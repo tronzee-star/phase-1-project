@@ -1,23 +1,27 @@
-# ⚽ Football Seasons Top 3 Player Stats App
+# ⚽ Football Seasons Player Stats App
 
-### 👤 Author: Bonfas Ogaro
+### 👤 Author: Your Name Here
 
 ---
 
 ## 📖 Project Description
 
-This is a **Single Page Application (SPA)** built using **HTML**, **CSS**, and **JavaScript** that lets users:
+This is a **Single Page Application (SPA)** built using **HTML**, **CSS**, and **JavaScript** that allows users to:
 
-- View top 3 football players' stats for different seasons (2021-2024).
-- Highlight MVP players for each season.
-- Dynamically filter players by season.
-- Add new players to a specific season (with their stats and photo).
-- Fetch data asynchronously from a local mock API (`db.json`) using **JSON Server**.
+- View football players' stats across four seasons (2021 to 2024).
+- Highlight each season’s **MVP (Most Valuable Player)**.
+- Filter and display players dynamically by season.
+- Add new players (with name, shirt number, goals, assists, trophies, photo, and MVP status) into a specific season.
+- Interact asynchronously with a local JSON API using **JSON Server**.
+- Update the page dynamically without reloads.
 
-All actions are performed asynchronously without any page reloads.
+All data is stored in a `db.json` file and served locally using JSON Server.
 
 ---
-[🔗 View Live on GitHub Pages](https://tronzee-star.github.io/phase-1-project/)
+
+## 🚀 Live Site
+
+[🔗 Click here to view the live site on GitHub Pages](https://tronzee-star.github.io/phase-1-projec
 
 ---
 
@@ -25,60 +29,64 @@ All actions are performed asynchronously without any page reloads.
 
 ### ✅ Requirements:
 
-- **Node.js**
-- **JSON Server** (Install using: `npm install -g json-server`)
-- **Live Server extension** in **VS Code** (for frontend preview)
+- **Node.js** installed on your machine.
+- **JSON Server** installed globally.
 
-
-### ✅ How to Run the Project Locally:
-
-1. **Start JSON Server**
+You can install JSON Server globally by running:
 
 ```bash
+npm install -g json-server
+✅ Running JSON Server (Backend):
+Place your db.json file in the root of your project folder.
+
+Start the JSON Server by running:
+
+bash
+Copy
+Edit
 npx json-server --watch db.json
+This will start your local API at:
 
-2.Open the Frontend
-
+bash
+Copy
+Edit
+http://localhost:3000/seasons
+✅ Running the Frontend:
 Open the project folder in Visual Studio Code.
 
-Right-click on index.html → Click "Open with Live Server".
+Make sure you have the Live Server extension installed.
 
-3. Using the App
+Right-click on your index.html file and select
+Open with Live Server
+The app will open in your browser and communicate with the JSON Server running locally.
 
-Choose a season from the dropdown to see players for that year.
+✅ Feattures Summary:
+🎯 Season Dropdown: Dynamically populated season selection.
 
-Add new players using the form.
+🎯 Player Display: Shows player cards for the selected season.
 
-The page updates dynamically without reloading.
+🎯 MVP Highlight: Visually marks the Most Valuable Player for each season.
 
-##✅ Features:
-✅ Season filtering (Choose any year from dropdown)
+🎯 Add Player Form: Users can add new players to a selected season (with fields like name, goals, assists, trophies, etc.).
 
-✅ Display list of players with their stats
+🎯 Dynamic Rendering: Page updates dynamically using JavaScript fetch and DOM manipulation.
 
-✅ Highlight MVP players
+🎯 Array Methods Used: Includes JavaScript array iteration (like .forEach() and .map()).
 
-✅ Add new players dynamically to specific seasons
+🎯 At Least 3 Event Listeners: Dropdown change, form submission, and potentially click or input events.
 
-✅ Asynchronous API calls using fetch
+✅ Technologies Used:
+HTML
 
-✅ Use of array iteration methods like .forEach()
-
-✅ Multiple distinct event listeners
-
-🖥️ Technologies Used:
-HTML5
-
-CSS3
+CSS3 (with styling, background images, and responsive layout)
 
 JavaScript (ES6+)
 
-JSON Server (For mock backend)
+JSON Server (for mock REST API backend)
 
-
-⚖️ License
+✅ License
 This project is licensed under the MIT License.
 
-©️ Copyright
-© 2025 Bonfas Ogaro. All Rights Reserved.
+✅ Copyright
+© 2025 Bonfas Ogaro Here. All Rights Reserved.
 
