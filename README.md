@@ -29,30 +29,6 @@ All actions are performed asynchronously without any page reloads.
 - **JSON Server** (Install using: `npm install -g json-server`)
 - **Live Server extension** in **VS Code** (for frontend preview)
 
----
-
-### ✅ How to Run the Project Locally:
-
-1. **Start JSON Server**
-
-```bash
-npx json-server --watch db.json
-
-## 🚀 Live Site
-
-🔗 view live site on
-
----
-
-## 🛠️ Project Setup Instructions
-
-### ✅ Requirements:
-
-- **Node.js**
-- **JSON Server** (Install using: `npm install -g json-server`)
-- **Live Server extension** in **VS Code** (for frontend preview)
-
----
 
 ### ✅ How to Run the Project Locally:
 
@@ -67,7 +43,7 @@ Open the project folder in Visual Studio Code.
 
 Right-click on index.html → Click "Open with Live Server".
 
-Using the App
+3. Using the App
 
 Choose a season from the dropdown to see players for that year.
 
@@ -75,7 +51,7 @@ Add new players using the form.
 
 The page updates dynamically without reloading.
 
-✅ Features:
+##✅ Features:
 ✅ Season filtering (Choose any year from dropdown)
 
 ✅ Display list of players with their stats
