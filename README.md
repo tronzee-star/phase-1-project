@@ -1,6 +1,6 @@
 # ⚽ Football Seasons Player Stats App
 
-### 👤 Author: Your Name Here
+### 👤 Author: Bonfas Ogaro
 
 ---
 
@@ -32,35 +32,21 @@ All data is stored in a `db.json` file and served locally using JSON Server.
 - **Node.js** installed on your machine.
 - **JSON Server** installed globally.
 
-You can install JSON Server globally by running:
-
-```bash
-npm install -g json-server
-✅ Running JSON Server (Backend):
-Place your db.json file in the root of your project folder.
-
-Start the JSON Server by running:
-
-bash
-Copy
-Edit
+## You can install JSON Server globally by running:
 npx json-server --watch db.json
 This will start your local API at:
 
-bash
-Copy
-Edit
-http://localhost:3000/seasons
-✅ Running the Frontend:
+
+## Running the Frontend:
 Open the project folder in Visual Studio Code.
-
 Make sure you have the Live Server extension installed.
-
 Right-click on your index.html file and select
 Open with Live Server
 The app will open in your browser and communicate with the JSON Server running locally.
 
-✅ Feattures Summary:
+---
+
+### ✅ Feattures Summary:
 🎯 Season Dropdown: Dynamically populated season selection.
 
 🎯 Player Display: Shows player cards for the selected season.
@@ -75,18 +61,19 @@ The app will open in your browser and communicate with the JSON Server running l
 
 🎯 At Least 3 Event Listeners: Dropdown change, form submission, and potentially click or input events.
 
-✅ Technologies Used:
+---
+
+### ✅ Technologies Used:
 HTML
-
 CSS3 (with styling, background images, and responsive layout)
-
 JavaScript (ES6+)
-
 JSON Server (for mock REST API backend)
 
-✅ License
+---
+
+### ✅ License
 This project is licensed under the MIT License.
 
-✅ Copyright
+### ✅ Copyright
 © 2025 Bonfas Ogaro Here. All Rights Reserved.
 
