@@ -1,0 +1,149 @@
+{
+  "seasons": [
+    {
+      "id": 1,
+      "year": "2021",
+      "players": [
+        {
+          "id": 2,
+          "name": "Cristiano Ronaldo",
+          "shirtNumber": 7,
+          "goals": 53,
+          "assists": 10,
+          "trophies": 3,
+          "photo": "pics/ronaldo.jpg",
+          "isMVP": true
+        },
+        {
+          "id": 1,
+          "name": "Lionel Messi",
+          "shirtNumber": 10,
+          "goals": 30,
+          "assists": 12,
+          "trophies": 3,
+          "photo": "pics/messi.jpg",
+          "isMVP": false
+        },
+
+        {
+          "id": 3,
+          "name": "Neymar Jr",
+          "shirtNumber": 11,
+          "goals": 18,
+          "assists": 15,
+          "trophies": 1,
+          "photo": "pics/neymar.jpg",
+          "isMVP": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "year": "2022",
+      "players": [
+        {
+          "id": 1,
+          "name": "Kylian Mbappe",
+          "shirtNumber": 7,
+          "goals": 35,
+          "assists": 10,
+          "trophies": 2,
+          "photo": "pics/mbappe.jpg",
+          "isMVP": true
+        },
+        {
+          "id": 2,
+          "name": "Robert Lewandowski",
+          "shirtNumber": 9,
+          "goals": 32,
+          "assists": 6,
+          "trophies": 2,
+          "photo": "pics/lewa.jpg",
+          "isMVP": false
+        },
+        {
+          "id": 3,
+          "name": "Mohamed Salah",
+          "shirtNumber": 11,
+          "goals": 23,
+          "assists": 12,
+          "trophies": 1,
+          "photo": "pics/mosalah.jpg",
+          "isMVP": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "year": "2023",
+      "players": [
+        {
+          "id": 1,
+          "name": "Erling Haaland",
+          "shirtNumber": 9,
+          "goals": 40,
+          "assists": 8,
+          "trophies": 3,
+          "photo": "pics/haaland.jpg",
+          "isMVP": true
+        },
+        {
+          "id": 2,
+          "name": "Karim Benzema",
+          "shirtNumber": 9,
+          "goals": 27,
+          "assists": 9,
+          "trophies": 2,
+          "photo": "pics/benzema.jpg",
+          "isMVP": false
+        },
+        {
+          "id": 3,
+          "name": "Kevin De Bruyne",
+          "shirtNumber": 17,
+          "goals": 15,
+          "assists": 20,
+          "trophies": 2,
+          "photo": "pics/kdb.jpg",
+          "isMVP": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "year": "2024",
+      "players": [
+        {
+          "id": 1,
+          "name": "Bukayo Saka",
+          "shirtNumber": 17,
+          "goals": 12,
+          "assists": 20,
+          "trophies": 2,
+          "photo": "pics/saka.jpg",
+          "isMVP": true
+        },
+        {
+          "id": 2,
+          "name": "Jude Bellingham",
+          "shirtNumber": 22,
+          "goals": 10,
+          "assists": 12,
+          "trophies": 2,
+          "photo": "pics/jude.jpg",
+          "isMVP": false
+        },
+        {
+          "id": 3,
+          "name": "Vinicius Jr",
+          "shirtNumber": 7,
+          "goals": 18,
+          "assists": 9,
+          "trophies": 2,
+          "photo": "pics/vini.jpg",
+          "isMVP": false
+        }
+      ]
+    }
+  ]
+}

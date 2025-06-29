@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Football Season MVP Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>top 3 footballers per season</header>
+
+    <div class="container">
+      <!-- Season Dropdown -->
+      <select id="season-select">
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>
+      <div id="players-display">
+        <!-- Player cards will render here -->
+      </div>
+    </div>
+    <div id="players-display">
+      <!-- Player cards will render here -->
+    </div>
+    <!-- Add Player Section -->
+    <section id="add-player-section">
+      <h2>Add New Player</h2>
+      <form id="add-player-form">
+        <input type="text" id="name" placeholder="Name" required />
+        <input
+          type="number"
+          id="shirtNumber"
+          placeholder="Shirt Number"
+          required
+        />
+
+        <input type="number" id="season-year" placeholder="Year" required />
+        <input type="number" id="goals" placeholder="Goals" required />
+        <input type="number" id="assists" placeholder="Assists" required />
+        <input type="number" id="trophies" placeholder="Trophies" required />
+        <input type="text" id="photo" placeholder="Photo URL" required />
+        <label> <input type="checkbox" id="mvp" /> MVP </label>
+        <button type="submit">Add Player</button>
+      </form>
+    </section>
+
+    <div class="section-divider"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

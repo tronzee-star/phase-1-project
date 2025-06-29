@@ -1,0 +1,151 @@
+body {
+  background-image: url("pics/football.avif");
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+  color: #333;
+}
+header {
+  text-align: center;
+  font-size: 36px;
+  color: #0d47a1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #1976d2;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1976d2;
+  padding-bottom: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px 0;
+  font-size: 16px;
+}
+
+#season-select {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+/* Players Display Section */
+#players-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.player-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 220px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.player-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.player-card div {
+  padding: 15px;
+  text-align: center;
+}
+
+.player-card h3 {
+  margin: 0 0 8px 0;
+  color: #1565c0;
+  font-size: 20px;
+}
+
+.player-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.player-card strong {
+  color: #05aa20;
+  font-weight: bold;
+}
+
+/* MVP Highlight */
+.mvp {
+  border: 2px solid #05ac37;
+  background-color: #ffebee;
+}
+
+/* Add Player Form Section */
+#add-player-form {
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  padding: 25px;
+  border: 2px solid #1976d2;
+  border-radius: 12px;
+  background-color: #e3f2fd;
+}
+
+#add-player-form h2 {
+  color: #0d47a1;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#add-player-form input[type="text"],
+#add-player-form input[type="number"],
+#add-player-form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+#add-player-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#add-player-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#add-player-form button:hover {
+  background-color: #0d47a1;
+}
