@@ -99,9 +99,6 @@ JavaScript (ES6+)
 
 JSON Server (For mock backend)
 
-📸 Screenshots:
-Example:[image](https://github.com/user-attachments/assets/911e45ee-8efe-49f0-82ee-18e584dec1cf)
-
 
 ⚖️ License
 This project is licensed under the MIT License.
