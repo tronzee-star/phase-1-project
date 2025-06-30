@@ -21,7 +21,7 @@ All data is stored in a `db.json` file and served locally using JSON Server.
 
 ## 🚀 Live Site
 
-[🔗 Click here to view the live site on GitHub Pages](https://tronzee-star.github.io/phase-1-projec
+[🔗 Click here to view the live site on GitHub Pages](https://tronzee-star.github.io/phase-1-project/)
 
 ---
 
