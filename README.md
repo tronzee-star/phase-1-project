@@ -34,7 +34,7 @@ All data is stored in a `db.json` file and served locally using JSON Server.
 
 ## You can install JSON Server globally by running:
 npx json-server --watch db.json
-This will start your local API at:
+This will start your local API 
 
 
 ## Running the Frontend:
